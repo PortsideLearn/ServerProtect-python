@@ -34,7 +34,7 @@ import oauth
 from pyqiwip2p import QiwiP2P
 print(time4logs(), 'Библиотеки импортированы')
 
-mongo = pymongo.MongoClient("mongodb+srv://{}:{}@{}/tests?retryWrites=true&w=majority".format(Auth.mongo_auth['username'], Auth.mongo_auth['auth']['debug'], Auth.mongo_auth['url']))
+mongo = pymongo.MongoClient()
 print(time4logs(), 'MongoDB подключена.')
 
 release = oauth.release
