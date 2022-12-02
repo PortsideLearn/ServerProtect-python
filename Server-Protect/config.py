@@ -11,18 +11,18 @@ class Color:
 
 class Auth:
     discord_auth = {
-        "debug":"MTAyODQwMjY1NzU5NDk3NDI3OQ.GEMstc.qmRkZ-uKtoCI8IRLN8yJp5eTWWdKfkjcAlq0Y4",
-        "release": "MTAyODMzNDkzNTQ4NTk4MDcwMg.GPLN1q.ixB-tuyksju8l51C8etX0hSo1rsibs9V9ymF74"
+        "debug:" "",
+        "release": ""
     }
     mongo_auth = {
         "url":"main.opwrf.mongodb.net",
-        "username":"ArtemBay",
+        "username":"",
         "auth":{
-            "debug":"YZaKp6M4IR6aYka6",
-            "release": "YZaKp6M4IR6aYka6"
+            "debug":"",
+            "release": ""
         }
     }
-    qiwi_auth = "eyJ2ZXJzaW9uIjoiUDJQIiwiZGF0YSI6eyJwYXlpbl9tZXJjaGFudF9zaXRlX3VpZCI6Im4wNHd6dy0wMCIsInVzZXJfaWQiOiI3OTUwNjgyOTc0MyIsInNlY3JldCI6ImU0OTNiODFmMjc4MzY4MTQwZTI2M2I5NTJlZWIzNDg2M2MyYTFhY2MzZjA5NDFmMjIwM2RjYzk0NjEzYTkyNzcifX0="
+    qiwi_auth = ""
 
 class Other:
     shard_count = 1
